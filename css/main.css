@@ -1,0 +1,46 @@
+
+body{
+    background:linear-gradient(skyblue,white,green);
+    font-size:20px;
+}
+div{
+    width:160px;
+    height:150px;
+    position:relative;
+    -webkit-animation:myfirst 2s infinite;
+    -webkit-animation-delay:2s;
+    -webkit-animation-direction:alernate ;
+}
+font{
+    width:160px;
+    height:150px;
+    position:relative;
+    -webkit-animation:myfirst 2s infinite;
+    -webkit-animation-delay:2s;
+    -webkit-animation-direction:alternate ;
+}
+@keyframes myfirst
+{
+    0%{
+        background:;left:0px;top:0px;
+       }
+       25%{
+           background:;left:180px;top:0px;
+       }
+       50%{
+           background:;left:180px;top:180px;
+       }
+       75%{
+           background:;left:0px;top:180px;
+       }
+       100%{
+           background:;left:0px;top:0px;
+           }
+        
+}
+caption{
+    color:gold;
+    font-size:25px;
+    font-family:cursive;
+    
+}
